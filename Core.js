@@ -695,7 +695,7 @@ reply(`
 if (db.users[m.sender].afkTime > -1) {
 let user = global.db.users[m.sender]
 reply(`
-منور لقد عدت ${user.afkReason ? ' after ' + user.afkReason : ''}
+منور لقد عدت ${user.afkReason ? ' السبب ' + user.afkReason : ''}
 مده الغياب ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
@@ -1324,7 +1324,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am/انا العزيز ${global.BotName}, a bot developed by: Elgazar to take your WhatsApp usage into next level/روبوت تم تطويره بواسطة: الجزار للانتقال باستخدام واتساب إلى المستوى التالي.
+    Konichiwa ${pushname} dear 👋. I am/انا العزيز ${global.BotName}, a bot developed by: Ayato to take your WhatsApp usage into next level/روبوت تم تطويره بواسطة: اياتو للانتقال باستخدام واتساب إلى المستوى التالي.
         
        「 System Info 」
     
@@ -1866,7 +1866,7 @@ await Miku.sendMessage(m.chat, { delete: key })
  let user = global.db.users[m.sender]
  user.afkTime = + new Date
  user.afkReason = args.join(" ")
- replay(`${m.pushName} انه في وضع الاختفاء\nبسبب : ${args.join(" ") ? args.join(" ") : ''}`)
+ replay(`${m.pushName} انه في وضع الاختفاء\nالسبب : ${args.join(" ") ? args.join(" ") : ''}`)
  }
  break
 
@@ -2294,7 +2294,7 @@ replay(`تم حظر المستخدم بنجاح.`)
 if (!isBane) return ads('User is already unbanned.')
 let delbans = banUser.indexOf(orgnye)
 banUser.splice(delbans, 1)
-replay(`تم إلغاء حظر المستخدم بنجاح.`)
+replay(`تم بنجاح إلغاء حظر المستخدم بنجاح.`)
 } else {
 replay("ايرور🙂!")
 }
@@ -3300,7 +3300,7 @@ reply(mess.error)
 break
 
 case 'tiktokaudio':
-case 'التبرعmusic':
+case 'music':
 case 'ttaud':{
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
@@ -3332,7 +3332,7 @@ case 'play2': case 'ytplay2': {
                     ]
                     let buttonMessage = {
                         image: { url: anu.thumbnail},
-                        caption: `「 _Elgazar Youtube Player_ 」
+                        caption: `「 _Ayato Youtube Player_ 」
 
     Title : ${anu.title}
     ID : ${anu.videoId}
@@ -3439,7 +3439,7 @@ case 'شغل': case 'play': case 'song': case 'تشغيل': {
  Miku.sendMessage(from, buttonMessage, {quoted:m})
  }).catch(_ => _)
  } catch {
- reply("Link error!")
+ reply("الرابط خطأ!")
  }
  }
  break
@@ -4823,8 +4823,8 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
       
  const helpmenu = `مرحبا *${pushname}*,
 
-انا *BOT ELGAZAR❤️*, 
-تم تطويره بواسطة * ELGAZAR ALWAZER❤️ *.
+انا *BOT AYATO❤️*, 
+تم تطويري بواسطه *AYATO❤️*.
 
 ♠️ البادئة الخاصة بي هي:  ${prefix}
  
@@ -5079,7 +5079,7 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
 
 
  『  *${global.BotName}*  』
- *تم التطوير بواسطه:الجزار*
+ *تم التطوير بواسطه:اياتو*
 `
 
 
@@ -5111,7 +5111,7 @@ case '':
       mikupic ='https://telegra.ph/file/f1a719ad79f830231d984.jpg'
     
         
- const needhelpmenu = `مرحبا بك في بوت الجزار لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه *${prefix}*.`
+ const needhelpmenu = `مرحبا بك في بوت اياتو لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه *${prefix}*.`
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
@@ -5129,11 +5129,11 @@ break
 
 
 
-case 'الجزار': case 'جزار': case 'عبدالله':
+case 'اياتو': case 'المطور':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `الجزار بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201098906252 / قناتي علي اليوتيوب: https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g / الانستجرام بتاعي: https://instagram.com/a_d_a_l_l_a_h?igshid=YmMyMTA2M2Y=`
+const txt = `اياتو بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201126554338 / الانستجرام بتاعي: https://www.instagram.com/invites/contact/?i=1gs0ef4ddattq&utm_content=kxkumcz‎‏`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",

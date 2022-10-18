@@ -7,14 +7,14 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['201098906252']
-global.OwnerNumber = ['201098906252']
-global.ownertag = ['201098906252']
-global.BotName = "❤️ᗴᒪᘜᗩᘔᗩᖇ ᗷOT❤️"
-global.packname = "⍣ريتششآرد يروحي⍣"
-global.author = "⍣01155791545⍣"
-global.OwnerName = "ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ❤️"
-global.BotSourceCode = "https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g"
+global.Owner = ['201126554338']
+global.OwnerNumber = ['201126554338']
+global.ownertag = ['201126554338']
+global.BotName = "❤𝑆 𝐴 𝑁 𝑆 𝑂 𝑅 𝐼 (𝐵𝑂𝑇)❤️"
+global.packname = "★𝑆 𝐴 𝑁 𝑆 𝑂 𝑅 𝐼★"
+global.author = "★01126554338★"
+global.OwnerName = "𝑆 𝐴 𝑁 𝑆 𝑂 𝑅 𝐼❤️"
+global.BotSourceCode = "https://www.instagram.com/invites/contact/?i=1gs0ef4ddattq&utm_content=kxkumcz‎‏"
 global.SupportGroupLink = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"
 global.sessionName = "session"
 
